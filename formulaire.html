@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleP2.css">
+</head>
+<body>
+
+    <div class="content contentName">
+        <p>nom pas bon</p>
+    </div>
+
+    <div class="content contentEMAIL">
+        <p>email pas bon</p>
+    </div>
+
+    <div class="content contentMDP">
+        <p>mot de passe pas bon</p>
+    </div>
+
+    <div>
+        <h1>Incription à la newsletter <u>Les Chonchons du paradis</u></h1>
+        <div class="divForm">
+            <form action="" method="post" class="formulaire">
+                <input type="text" name="nom" placeholder="Votre nom" class="item" id="nom" required>
+                <input type="email" name="email" placeholder="Votre email" class="item"  id="mail">
+                <label for="">saissisez votre mot de passe</label>
+                <input type="text" name="mdp" placeholder="Mot de passe" id="mdp" class="item" required>
+                <label for="">Vérification de votre mot de passe</label>
+                <input type="text" name="mdp" placeholder="Mot de passe" id="Vmdp" class="item" required>
+                <p>Voulez-vous recevoir plein de pub qui finira par saturer votre boîte mail ?</p>
+                <div class="item">
+                    <input type="radio" name="coix" value ="Oui" >
+                    <label for="oui">Oui</label>
+                    <input type="radio" name="coix" value="non">
+                    <label for="non">Non</label>
+                </div>
+                <button type="submit" class="item" >Envoyer</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="form.js"></script>
+</body>
+</html>

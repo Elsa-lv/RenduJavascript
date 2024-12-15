@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+}
+
+.formulaire{
+    padding-right: 20%;
+    padding-left: 20%;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item{
+    margin-bottom: 2%;
+}
+
+.divForm{
+    background-color: rgb(222, 208, 185);
+    margin: 5%;
+    padding: 5%;
+}
+.align{
+    display: flex;
+    
+    flex-direction: column;
+}
+
+.non{
+    background-color: rgba(200, 0, 0, 0.317);
+}
+.oui{
+    background-color: rgba(0, 200, 3, 0.317);
+}
+
+.content{
+    display: none;
+}
+
+.active{
+    display: block;
+}
